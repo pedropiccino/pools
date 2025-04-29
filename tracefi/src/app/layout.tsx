@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 
-
 const inter = Inter({
     variable: "--font-inter",
     subsets: ["latin"],
@@ -13,7 +12,7 @@ const inter = Inter({
 export const metadata: Metadata = {
     title: "TraceFi",
     description: "Platform of Pools Copy Trade",
-    icons:{
+    icons: {
         icon: "/favicon.png",
     },
 };
@@ -27,7 +26,7 @@ export default function RootLayout({
         <html>
             <body
                 className={`${inter.variable} font-sans antialiased bg-neutral-950 text-white overflow-x-hidden`}
-                >
+            >
                 {children}
             </body>
         </html>
