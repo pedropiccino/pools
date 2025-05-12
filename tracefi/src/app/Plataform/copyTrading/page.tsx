@@ -1,12 +1,12 @@
 import Navbar from "@/sections/Platform/Navbar";
-import TopPools from "@/sections/Platform/TopPools";
+import CopyTrading from "@/sections/Platform/CopyTrading";
 
 export default function TraceFi() {
   return (
     <div className="flex h-screen overflow-hidden">
       <Navbar />
       <main className="flex-1 bg-[var(--color-platform-hero-background)] text-white overflow-y-auto">
-        <TopPools />
+        <CopyTrading />
       </main>
     </div>
   );

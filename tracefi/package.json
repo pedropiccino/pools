@@ -10,13 +10,17 @@
         "format": "prettier --write ."
     },
     "dependencies": {
-        "class-variance-authority": "^0.7.0",
+        "@radix-ui/react-dialog": "^1.1.13",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
         "lucide-react": "^0.503.0",
         "next": "^14.2.18",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
         "react-fast-marquee": "^1.6.5",
-        "tailwind-merge": "^2.5.4"
+        "react-icons": "^5.5.0",
+        "tailwind-merge": "^2.6.0",
+        "tailwindcss-animate": "^1.0.7"
     },
     "devDependencies": {
         "@svgr/webpack": "^8.1.0",
